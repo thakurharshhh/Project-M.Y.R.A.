@@ -1,3 +1,8 @@
 Stage-1: 
 Here, our AI will speak the word after activation of code.
-I have simply used basic python codes like
+I have simply used basic python codes and modules like gTTS,os and playsound these are basic modules with the following 
+uses:
+i. gTTS: Known as Google-text-to-Speach it gives voice to our AI i used this because with the help of this we can easily 
+          convert our passive text into active voice.
+ii. playsound: This module help to play that voice from default media player of our device.
+iii. os: This helps us to give access of our device from ehich our code can use it according to it's need.
