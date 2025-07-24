@@ -2,13 +2,14 @@ from gtts import gTTS
 import playsound
 import os
 
-text = "Hello Boss!, Friday Here!"
+text = "Hello Boss!, Myra Here!"
 
 # Remove previous audio if exists
-if os.path.exists("friday.mp3"): # It will helps to prevent colision of two running command boices
-    os.remove("friday.mp3")
+if os.path.exists("myra.mp3"): 
+    os.remove("myra.mp3")
+# prevent from overlapping between voices.
 
-# Use UK English voice (British female style)
+# I have used Female English voice here.
 tts = gTTS(text=text, lang='en', tld='co.uk')
-tts.save("friday.mp3")
-playsound.playsound("friday.mp3")
+tts.save("myra.mp3")
+playsound.playsound("myra.mp3")
